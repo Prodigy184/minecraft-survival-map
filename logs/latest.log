@@ -1,59 +1,139 @@
-[09:58:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[09:58:42] [Server thread/INFO]: Loading properties
-[09:58:42] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_73]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_73]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_73]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_73]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_73]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_73]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_73]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_73]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_73]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_73]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_73]
-	at ko$2.run(SourceFile:81) [minecraft_server.1.8.8.exe:?]
-[09:58:42] [Server thread/INFO]: Default game type: SURVIVAL
-[09:58:42] [Server thread/INFO]: Generating keypair
-[09:58:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:58:43] [Server thread/INFO]: Using default channel type
-[09:58:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:58:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:58:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:58:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:58:43] [Server thread/INFO]: Preparing level "world"
-[09:58:44] [Server thread/INFO]: Preparing start region for level 0
-[09:58:44] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
-[09:58:45] [Server thread/INFO]: Preparing spawn area: 20%
-[09:58:46] [Server thread/INFO]: Preparing spawn area: 54%
-[09:58:47] [Server thread/INFO]: Preparing spawn area: 84%
-[09:58:47] [Server thread/INFO]: Done (3.662s)! For help, type "help" or "?"
-[09:59:41] [Server thread/INFO]: WoWClaudiu[/127.0.0.1:49632] logged in with entity id 380 at (-307.79638230982107, 87.0, -299.3909470277808)
-[09:59:41] [Server thread/INFO]: WoWClaudiu joined the game
-[09:59:41] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
-[09:59:51] [Server thread/INFO]: [WoWClaudiu: Changing to clear weather]
-[10:00:26] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
-[10:01:09] [Server thread/INFO]: Vlad[/25.83.163.11:50635] logged in with entity id 2117 at (-348.90659649395315, 77.0, -293.82401849105355)
-[10:01:09] [Server thread/INFO]: Vlad joined the game
-[10:01:09] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:01:09] [Server thread/INFO]: Vlad left the game
-[10:01:16] [Server thread/INFO]: Vlad[/25.83.163.11:50637] logged in with entity id 2274 at (-348.90659649395315, 77.0, -293.82401849105355)
-[10:01:16] [Server thread/INFO]: Vlad joined the game
-[10:01:17] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:01:17] [Server thread/INFO]: Vlad left the game
-[10:01:19] [Server thread/INFO]: Vlad[/25.83.163.11:50639] logged in with entity id 2585 at (-348.90659649395315, 77.0, -293.82401849105355)
-[10:01:19] [Server thread/INFO]: Vlad joined the game
-[10:01:19] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:01:19] [Server thread/INFO]: Vlad left the game
-[10:01:27] [Server thread/INFO]: Vlad[/25.83.163.11:50641] logged in with entity id 2682 at (-348.90659649395315, 77.0, -293.82401849105355)
-[10:01:27] [Server thread/INFO]: Vlad joined the game
-[10:01:28] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:01:28] [Server thread/INFO]: Vlad left the game
-[10:01:36] [Server thread/INFO]: Vlad[/25.83.163.11:50642] logged in with entity id 2795 at (-348.90659649395315, 77.0, -293.82401849105355)
-[10:01:36] [Server thread/INFO]: Vlad joined the game
-[10:01:37] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:01:37] [Server thread/INFO]: Vlad left the game
-[10:02:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3006ms behind, skipping 60 tick(s)
-[10:08:39] [Server thread/INFO]: WoWClaudiu lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[10:08:39] [Server thread/INFO]: WoWClaudiu left the game
+[10:31:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[10:31:01] [Server thread/INFO]: Loading properties
+[10:31:01] [Server thread/INFO]: Default game type: SURVIVAL
+[10:31:01] [Server thread/INFO]: Generating keypair
+[10:31:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:31:01] [Server thread/INFO]: Using default channel type
+[10:31:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:31:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:31:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:31:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:31:01] [Server thread/INFO]: Preparing level "world"
+[10:31:02] [Server thread/INFO]: Preparing start region for level 0
+[10:31:02] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[10:31:03] [Server thread/ERROR]: Chunk file at -15,-8 is in the wrong location; relocating. (Expected -15, -8, got -32, -22)
+[10:31:03] [Server thread/INFO]: Preparing spawn area: 56%
+[10:31:03] [Server thread/INFO]: Done (1.921s)! For help, type "help" or "?"
+[10:32:10] [Server thread/INFO]: WoWClaudiu[/127.0.0.1:50151] logged in with entity id 388 at (-308.4679199385444, 87.0625, -300.1061646123222)
+[10:32:10] [Server thread/INFO]: WoWClaudiu joined the game
+[10:32:10] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[10:32:17] [Server thread/INFO]: [WoWClaudiu: Changing to clear weather]
+[10:32:24] [Server thread/INFO]: dnne[/25.34.67.41:49625] logged in with entity id 637 at (-242.5, 89.0, -237.5)
+[10:32:24] [Server thread/INFO]: dnne joined the game
+[10:32:32] [Server thread/INFO]: dnne lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:32:32] [Server thread/INFO]: dnne left the game
+[10:33:17] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[10:33:56] [Server thread/INFO]: Dnne[/25.34.67.41:49770] logged in with entity id 2320 at (-230.85771277584482, 29.0, -173.9496714442525)
+[10:33:56] [Server thread/INFO]: Dnne joined the game
+[10:34:01] [Server thread/ERROR]: Chunk file at -6,-29 is in the wrong location; relocating. (Expected -6, -29, got -32, -22)
+[10:34:45] [Server thread/ERROR]: Chunk file at -29,-26 is in the wrong location; relocating. (Expected -29, -26, got -8, -30)
+[10:35:38] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -6, -29)
+[10:37:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3261ms behind, skipping 65 tick(s)
+[10:37:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3440ms behind, skipping 68 tick(s)
+[10:38:52] [Server thread/INFO]: Dnne lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:38:52] [Server thread/INFO]: Dnne left the game
+[10:39:44] [Server thread/INFO]: Dnne[/25.34.67.41:50336] logged in with entity id 10123 at (-228.28043045226892, 29.0, -171.97514879465658)
+[10:39:44] [Server thread/INFO]: Dnne joined the game
+[10:41:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4917ms behind, skipping 98 tick(s)
+[10:42:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3050ms behind, skipping 61 tick(s)
+[10:44:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5000ms behind, skipping 100 tick(s)
+[10:44:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2678ms behind, skipping 53 tick(s)
+[10:44:26] [Server thread/WARN]: Dnne moved wrongly!
+[10:47:22] [Server thread/INFO]: WoWClaudiu was burnt to a crisp whilst fighting Zombie Pigman
+[10:47:24] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[10:47:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6461ms behind, skipping 129 tick(s)
+[10:47:45] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
+[10:47:49] [Server thread/INFO]: [WoWClaudiu: Changing to clear weather]
+[10:48:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3484ms behind, skipping 69 tick(s)
+[10:48:17] [Server thread/INFO]: WoWClaudiu was burnt to a crisp whilst fighting Zombie Pigman
+[10:48:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3887ms behind, skipping 77 tick(s)
+[10:49:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3650ms behind, skipping 73 tick(s)
+[10:56:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4488ms behind, skipping 89 tick(s)
+[10:56:46] [Server thread/WARN]: Dnne moved wrongly!
+[10:58:51] [Server thread/WARN]: WoWClaudiu moved wrongly!
+[10:58:51] [Server thread/WARN]: WoWClaudiu moved wrongly!
+[11:00:12] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:01:42] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
+[11:02:15] [Server thread/INFO]: [WoWClaudiu: Changing to clear weather]
+[11:03:27] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[11:03:51] [Server thread/ERROR]: Chunk file at -6,-29 is in the wrong location; relocating. (Expected -6, -29, got -32, -22)
+[11:06:12] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:07:05] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -6, -29)
+[11:07:29] [Server thread/INFO]: [WoWClaudiu: Set the time to 12000]
+[11:08:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2253ms behind, skipping 45 tick(s)
+[11:09:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5753ms behind, skipping 115 tick(s)
+[11:09:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4260ms behind, skipping 85 tick(s)
+[11:10:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2197ms behind, skipping 43 tick(s)
+[11:11:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2646ms behind, skipping 52 tick(s)
+[11:12:09] [Server thread/INFO]: WoWClaudiu lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[11:12:09] [Server thread/INFO]: WoWClaudiu left the game
+[11:22:02] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:33:40] [Server thread/INFO]: WoWClaudiu[/127.0.0.1:50657] logged in with entity id 75065 at (-312.0121479839651, 87.5625, -316.3062574455796)
+[11:33:40] [Server thread/INFO]: WoWClaudiu joined the game
+[11:33:40] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:34:08] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[11:34:14] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:35:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2109ms behind, skipping 42 tick(s)
+[11:36:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5740ms behind, skipping 114 tick(s)
+[11:36:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3624ms behind, skipping 72 tick(s)
+[11:36:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3134ms behind, skipping 62 tick(s)
+[11:36:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2345ms behind, skipping 46 tick(s)
+[11:37:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3334ms behind, skipping 66 tick(s)
+[11:37:57] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
+[11:37:57] [Server thread/WARN]: Wrong location! (-15, -8) should be (-32, -22), wa['Skeleton'/81729, l='world', x=-234.50, y=63.00, z=-119.50]
+[11:39:08] [Server thread/INFO]: <WoWClaudiu> HELLO!!!!!
+[11:40:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2433ms behind, skipping 48 tick(s)
+[11:40:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4952ms behind, skipping 99 tick(s)
+[11:40:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5936ms behind, skipping 118 tick(s)
+[11:41:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6669ms behind, skipping 133 tick(s)
+[11:41:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3058ms behind, skipping 61 tick(s)
+[11:41:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6552ms behind, skipping 131 tick(s)
+[11:41:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5472ms behind, skipping 109 tick(s)
+[11:42:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7719ms behind, skipping 154 tick(s)
+[11:42:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3191ms behind, skipping 63 tick(s)
+[11:42:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7287ms behind, skipping 145 tick(s)
+[11:43:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6634ms behind, skipping 132 tick(s)
+[11:43:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8252ms behind, skipping 165 tick(s)
+[11:43:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5399ms behind, skipping 107 tick(s)
+[11:43:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4621ms behind, skipping 92 tick(s)
+[11:44:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10045ms behind, skipping 200 tick(s)
+[11:44:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4811ms behind, skipping 96 tick(s)
+[11:44:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9583ms behind, skipping 191 tick(s)
+[11:45:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3917ms behind, skipping 78 tick(s)
+[11:45:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7066ms behind, skipping 141 tick(s)
+[11:45:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7806ms behind, skipping 156 tick(s)
+[11:46:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9016ms behind, skipping 180 tick(s)
+[11:46:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5207ms behind, skipping 104 tick(s)
+[11:46:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7918ms behind, skipping 158 tick(s)
+[11:47:08] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[11:47:21] [Server thread/ERROR]: Chunk file at -6,-29 is in the wrong location; relocating. (Expected -6, -29, got -32, -22)
+[11:54:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3527ms behind, skipping 70 tick(s)
+[11:54:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5058ms behind, skipping 101 tick(s)
+[11:56:16] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[11:56:41] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[11:57:31] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
+[11:58:41] [Server thread/ERROR]: Chunk file at -6,-29 is in the wrong location; relocating. (Expected -6, -29, got -32, -22)
+[11:58:45] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[12:00:56] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -6, -29)
+[12:03:18] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[12:03:52] [Server thread/ERROR]: Chunk file at -6,-29 is in the wrong location; relocating. (Expected -6, -29, got -32, -22)
+[12:05:01] [Server thread/ERROR]: Chunk file at -29,-26 is in the wrong location; relocating. (Expected -29, -26, got -8, -30)
+[12:09:29] [Server thread/ERROR]: Chunk file at -8,-30 is in the wrong location; relocating. (Expected -8, -30, got -29, -26)
+[12:10:40] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -6, -29)
+[12:11:54] [Server thread/ERROR]: Chunk file at -29,-26 is in the wrong location; relocating. (Expected -29, -26, got -8, -30)
+[12:12:01] [Server thread/INFO]: WoWClaudiu lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[12:12:01] [Server thread/INFO]: WoWClaudiu left the game
+[12:15:26] [Server thread/INFO]: Dnne lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[12:15:26] [Server thread/INFO]: Dnne left the game
+[12:18:11] [Server thread/INFO]: Saving...
+[12:18:11] [Server thread/INFO]: Saved the world
+[12:18:13] [Server thread/INFO]: Stopping server
+[12:18:13] [Server thread/INFO]: Saving players
+[12:18:13] [Server thread/INFO]: Saving worlds
+[12:18:13] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:18:13] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[12:18:13] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[12:18:13] [Server Shutdown Thread/INFO]: Stopping server
+[12:18:13] [Server Shutdown Thread/INFO]: Saving players
+[12:18:13] [Server Shutdown Thread/INFO]: Saving worlds
+[12:18:13] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
