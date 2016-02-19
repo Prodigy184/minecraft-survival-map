@@ -1,0 +1,306 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 9/18/15 12:29 PM
+Description: Watching Server
+
+java.lang.Error
+	at arr.c(SourceFile:41)
+	at arr.a(SourceFile:22)
+	at arr.d(SourceFile:70)
+	at arr.a(SourceFile:24)
+	at arr.e(SourceFile:100)
+	at arr.a(SourceFile:26)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at ars.a(SourceFile:15)
+	at art.a(SourceFile:17)
+	at arq.a(SourceFile:17)
+	at arw.a(SourceFile:44)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at arv.a(SourceFile:14)
+	at asg.a(SourceFile:19)
+	at asf.a(SourceFile:13)
+	at asr.a(SourceFile:19)
+	at ars.a(SourceFile:15)
+	at asr.a(SourceFile:19)
+	at asl.a(SourceFile:15)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at asm.a(SourceFile:15)
+	at ask.a(SourceFile:24)
+	at asq.a(SourceFile:22)
+	at aec.a(SourceFile:157)
+	at adz$a.<init>(SourceFile:28)
+	at adz.a(SourceFile:53)
+	at adz.c(SourceFile:92)
+	at aec.a(SourceFile:152)
+	at aec.b(SourceFile:142)
+	at aoa.d(SourceFile:203)
+	at ld.c(SourceFile:87)
+	at lc$a.<init>(SourceFile:39)
+	at lc.a(SourceFile:231)
+	at lc.d(SourceFile:370)
+	at lx.d(SourceFile:286)
+	at lm.a(SourceFile:252)
+	at ip.a(SourceFile:126)
+	at ip$c.a(SourceFile:88)
+	at fh$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at g.a(SourceFile:44)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:579)
+	at ko.B(SourceFile:299)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:535)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:451)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at arr.c(SourceFile:41)
+	at arr.a(SourceFile:22)
+	at arr.d(SourceFile:70)
+	at arr.a(SourceFile:24)
+	at arr.e(SourceFile:100)
+	at arr.a(SourceFile:26)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at ars.a(SourceFile:15)
+	at art.a(SourceFile:17)
+	at arq.a(SourceFile:17)
+	at arw.a(SourceFile:44)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at arv.a(SourceFile:14)
+	at asg.a(SourceFile:19)
+	at asf.a(SourceFile:13)
+	at asr.a(SourceFile:19)
+	at ars.a(SourceFile:15)
+	at asr.a(SourceFile:19)
+	at asl.a(SourceFile:15)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	at asm.a(SourceFile:15)
+	at ask.a(SourceFile:24)
+	at asq.a(SourceFile:22)
+	at aec.a(SourceFile:157)
+	at adz$a.<init>(SourceFile:28)
+	at adz.a(SourceFile:53)
+	at adz.c(SourceFile:92)
+	at aec.a(SourceFile:152)
+	at aec.b(SourceFile:142)
+	at aoa.d(SourceFile:203)
+	at ld.c(SourceFile:87)
+	at lc$a.<init>(SourceFile:39)
+	at lc.a(SourceFile:231)
+	at lc.d(SourceFile:370)
+	at lx.d(SourceFile:286)
+	at lm.a(SourceFile:252)
+	at ip.a(SourceFile:126)
+	at ip$c.a(SourceFile:88)
+	at fh$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at g.a(SourceFile:44)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:579)
+	at ko.B(SourceFile:299)
+	at net.minecraft.server.MinecraftServer.A(SourceFile:535)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Server IO #2" Id=28 BLOCKED on java.util.ArrayDeque@15db907 owned by "Server thread" Id=20
+	at net.minecraft.server.MinecraftServer.a(SourceFile:1274)
+	-  blocked on java.util.ArrayDeque@15db907
+	at net.minecraft.server.MinecraftServer.a(SourceFile:1291)
+	at le.a(SourceFile:975)
+	at fh.a(SourceFile:10)
+	at lm.a(SourceFile:201)
+	at ip.a(SourceFile:126)
+	at ip$c.a(SourceFile:88)
+	at ek.a(SourceFile:125)
+	...
+
+
+"File IO Thread" Id=33 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at auc.c(SourceFile:44)
+	at auc.run(SourceFile:30)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Watchdog" Id=31 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at kp.run(SourceFile:43)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #1" Id=27 BLOCKED on java.util.ArrayDeque@15db907 owned by "Server thread" Id=20
+	at net.minecraft.server.MinecraftServer.a(SourceFile:1274)
+	-  blocked on java.util.ArrayDeque@15db907
+	at net.minecraft.server.MinecraftServer.a(SourceFile:1291)
+	at le.a(SourceFile:975)
+	at fh.a(SourceFile:10)
+	at lm.a(SourceFile:201)
+	at ip.a(SourceFile:126)
+	at ip$c.a(SourceFile:88)
+	at ek.a(SourceFile:125)
+	...
+
+
+"Netty Server IO #0" Id=26 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@19a499c
+	-  locked java.util.Collections$UnmodifiableSet@1a5d277
+	-  locked sun.nio.ch.WindowsSelectorImpl@a743a7
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"D3D Screen Updater" Id=24 TIMED_WAITING on java.lang.Object@a84035
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@a84035
+	at sun.java2d.d3d.D3DScreenUpdateManager.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server console handler" Id=23 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	-  locked java.io.BufferedInputStream@1553b55
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	-  locked java.io.InputStreamReader@b06662
+	at java.io.InputStreamReader.read(Unknown Source)
+	...
+
+
+"DestroyJavaVM" Id=22 RUNNABLE
+
+
+"Server thread" Id=20 RUNNABLE
+	at arr.c(SourceFile:41)
+	at arr.a(SourceFile:22)
+	at arr.d(SourceFile:70)
+	at arr.a(SourceFile:24)
+	at arr.e(SourceFile:100)
+	at arr.a(SourceFile:26)
+	at asr.a(SourceFile:19)
+	at asr.a(SourceFile:19)
+	...
+
+
+"TimerQueue" Id=18 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41f624
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41f624
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at java.util.concurrent.DelayQueue.take(Unknown Source)
+	at javax.swing.TimerQueue.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@88bce8
+
+
+"AWT-EventQueue-0" Id=16 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eedea
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6eedea
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.awt.EventQueue.getNextEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	...
+
+
+"AWT-Windows" Id=14 RUNNABLE (in native)
+	at sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at sun.awt.windows.WToolkit.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"AWT-Shutdown" Id=13 WAITING on java.lang.Object@1b40bf3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@1b40bf3
+	at java.lang.Object.wait(Unknown Source)
+	at sun.awt.AWTAutoShutdown.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Java2D Disposer" Id=12 WAITING on java.lang.ref.ReferenceQueue$Lock@c680d1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@c680d1
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at sun.java2d.Disposer.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Infinisleeper" Id=11 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at ko$1.run(SourceFile:65)
+
+
+"Snooper Timer" Id=10 TIMED_WAITING on java.util.TaskQueue@101bdbb
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@101bdbb
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"Attach Listener" Id=5 RUNNABLE
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@ef1c8c
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@ef1c8c
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@1656471
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@1656471
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at kp.run(SourceFile:59)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 7 (x86) version 6.1
+	Java Version: 1.8.0_60, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 868478976 bytes (828 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xms1024M -Xmx1024M
+	IntCache: cache: 1, tcache: 1, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 2 / 20; [lf['Dnne'/198, l='world', x=608.13, y=84.97, z=-262.69], lf['WoWClaudiu'/1255, l='world', x=560.69, y=82.85, z=-271.48]]
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

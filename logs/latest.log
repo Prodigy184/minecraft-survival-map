@@ -1,0 +1,59 @@
+[09:58:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[09:58:42] [Server thread/INFO]: Loading properties
+[09:58:42] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_73]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_73]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_73]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_73]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_73]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_73]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_73]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_73]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.8.exe:?]
+[09:58:42] [Server thread/INFO]: Default game type: SURVIVAL
+[09:58:42] [Server thread/INFO]: Generating keypair
+[09:58:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:58:43] [Server thread/INFO]: Using default channel type
+[09:58:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:58:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:58:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:58:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:58:43] [Server thread/INFO]: Preparing level "world"
+[09:58:44] [Server thread/INFO]: Preparing start region for level 0
+[09:58:44] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[09:58:45] [Server thread/INFO]: Preparing spawn area: 20%
+[09:58:46] [Server thread/INFO]: Preparing spawn area: 54%
+[09:58:47] [Server thread/INFO]: Preparing spawn area: 84%
+[09:58:47] [Server thread/INFO]: Done (3.662s)! For help, type "help" or "?"
+[09:59:41] [Server thread/INFO]: WoWClaudiu[/127.0.0.1:49632] logged in with entity id 380 at (-307.79638230982107, 87.0, -299.3909470277808)
+[09:59:41] [Server thread/INFO]: WoWClaudiu joined the game
+[09:59:41] [Server thread/ERROR]: Chunk file at -28,-27 is in the wrong location; relocating. (Expected -28, -27, got -28, -26)
+[09:59:51] [Server thread/INFO]: [WoWClaudiu: Changing to clear weather]
+[10:00:26] [Server thread/ERROR]: Chunk file at -32,-22 is in the wrong location; relocating. (Expected -32, -22, got -15, -8)
+[10:01:09] [Server thread/INFO]: Vlad[/25.83.163.11:50635] logged in with entity id 2117 at (-348.90659649395315, 77.0, -293.82401849105355)
+[10:01:09] [Server thread/INFO]: Vlad joined the game
+[10:01:09] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:01:09] [Server thread/INFO]: Vlad left the game
+[10:01:16] [Server thread/INFO]: Vlad[/25.83.163.11:50637] logged in with entity id 2274 at (-348.90659649395315, 77.0, -293.82401849105355)
+[10:01:16] [Server thread/INFO]: Vlad joined the game
+[10:01:17] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:01:17] [Server thread/INFO]: Vlad left the game
+[10:01:19] [Server thread/INFO]: Vlad[/25.83.163.11:50639] logged in with entity id 2585 at (-348.90659649395315, 77.0, -293.82401849105355)
+[10:01:19] [Server thread/INFO]: Vlad joined the game
+[10:01:19] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:01:19] [Server thread/INFO]: Vlad left the game
+[10:01:27] [Server thread/INFO]: Vlad[/25.83.163.11:50641] logged in with entity id 2682 at (-348.90659649395315, 77.0, -293.82401849105355)
+[10:01:27] [Server thread/INFO]: Vlad joined the game
+[10:01:28] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:01:28] [Server thread/INFO]: Vlad left the game
+[10:01:36] [Server thread/INFO]: Vlad[/25.83.163.11:50642] logged in with entity id 2795 at (-348.90659649395315, 77.0, -293.82401849105355)
+[10:01:36] [Server thread/INFO]: Vlad joined the game
+[10:01:37] [Server thread/INFO]: Vlad lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:01:37] [Server thread/INFO]: Vlad left the game
+[10:02:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3006ms behind, skipping 60 tick(s)
+[10:08:39] [Server thread/INFO]: WoWClaudiu lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[10:08:39] [Server thread/INFO]: WoWClaudiu left the game

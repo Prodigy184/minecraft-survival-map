@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "3c00b58d-a066-4f52-a2b7-615641dcbe00",
+    "name": "Server",
+    "created": "2015-09-28 15:24:09 +0300",
+    "source": "Dnne",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "dead2afd-32cf-3aab-a621-b24ca7838854",
+    "name": "serverr",
+    "created": "2015-09-28 15:23:50 +0300",
+    "source": "Dnne",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
